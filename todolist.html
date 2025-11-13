@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todolist.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="todolist-section">
+        <h2><i class="fa-solid fa-square-check"></i>Todo List</h2>
+
+        <div id="todo-input">
+          <input type="text" placeholder="할 일을 입력하세요.." />
+          <button id="addTodo-button">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+
+        <ul id="todo-board"></ul>
+
+        <div id="todo-message">메세지가 없습니다.</div>
+      </div>
+    </div>
+
+    <script src="todolist.js"></script>
+  </body>
+</html>
